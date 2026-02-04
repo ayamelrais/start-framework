@@ -19,8 +19,8 @@ function App() {
       {path:"about",element:<About/>},
       {path:"portfolio",element:<Portfolio/>},
       {path:"contact",element:<Contact/>},
-    ]},
-    
+    ]},{
+    basename:'/start-framework/'}
   ])
 
   return (
