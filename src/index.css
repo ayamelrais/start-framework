@@ -1,0 +1,35 @@
+.bg-main-color{
+    background-color: #2C3E50;
+}
+
+section{
+    background-color: teal;
+    height: 100vh;
+}
+
+
+.star-icon{
+    position: relative;
+}
+
+.star-icon::before{
+    content: "";
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    width: 10%;
+    height: 3px;
+}
+
+.star-icon::after{
+    content: "";
+    position: absolute;
+    right: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    width: 10%;
+    height: 3px;
+}

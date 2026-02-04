@@ -1,0 +1,12 @@
+
+
+.navbar-nav .nav-link.active{
+    background-color: teal;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.nav-link {
+    padding: 5px;
+}
